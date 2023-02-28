@@ -1,0 +1,222 @@
+
+ .btn-outline-custom {
+   border: 1px solid #eee !important;
+ }
+
+.bg-white{
+  background: #fff;
+}
+g[opacity="0.3"],
+g[opacity="0.4"]{
+  display: none;
+}
+.crypt-logo img{
+  height: 70px !important;
+}
+/*--- colors ----*/
+.crypt-yellow{
+  color: #f8a43e;
+}
+.crypt-green{
+  color: #86d6a6;
+}
+.crypt-violet{
+  color: #5d49c2;
+}
+.crypt-red{
+  color: #f7614e  ;
+}
+.crypt-sky-blue{
+  color: #31ccf8  ;
+}
+.crypt-pink{
+  color: #fb7ab9  ;
+}
+.crypt-brown{
+  color: #dca875  ;
+}
+
+.container-full-width {
+  width: 100%;
+  font-size: 13px;
+}
+
+.row-custom {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.row-custom .column-chart {
+  height: 400px;
+}
+
+.crypt-button-inline{
+  display: inline-block;
+} 
+.crypt-btn-green{
+  background: #49c279;
+  color: #fff;
+} 
+.crypt-btn-red{
+  background: #f7614e;
+  color: #fff;
+}
+.crypt-btn-green:hover,
+.crypt-btn-red:hover{
+  color: #fff;
+}
+.fright{
+  float: right;
+}
+.crypt-bg-head{
+  background: #ecf4fe;
+  padding: 13px;
+}
+.crypt-boxed-area{
+  border: 1px solid #f1f1f1;
+  background: #fff;
+}
+body.crypt-dark .crypt-bg-head{
+  background: #1f2638;
+  padding: 13px;
+}
+body.crypt-dark .crypt-boxed-area{
+  background: #131a33;
+  border: none;
+  color: #fff;
+}
+
+.crypt-up{
+  color: #49c279 !important;
+}
+.crypt-down{
+  color: red !important;
+}
+.padding-left{
+  padding-left: 30px;
+}
+.crypt-button-green-full{
+  background: #49c279;
+  color: #fff;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.crypt-button-green-full:hover{
+  background: #34a560;
+  text-decoration: none;
+  color: #fff;
+}
+.crypt-button-red-full{
+  background: #f7614e !important;
+  border: none !important;
+  color: #fff;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.crypt-button-red-full:hover{
+  text-decoration: none;
+  color: #fff;
+  background: #ca3a28;
+}
+
+body{
+scrollbar-base-color: #C0C0C0;
+scrollbar-base-color: #C0C0C0;
+scrollbar-3dlight-color: #C0C0C0;
+scrollbar-highlight-color: #C0C0C0;
+scrollbar-track-color: #EBEBEB;
+scrollbar-arrow-color: black;
+scrollbar-shadow-color: #C0C0C0;
+}
+
+.card-border {
+  background-color: #fff;
+}
+
+.model-container {
+  height: calc(100% - 400px - 15px);
+  margin: 15px 0p 0 0;
+  padding: 15px 0p 0 0;
+}
+
+/**/
+::-webkit-scrollbar {
+  background: transparent;
+  width: 3px;
+  height: 10px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #C0C0C0;;
+  border: solid rgba(0,0,0,0) 2px;
+  transition: all 0.4s ease
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2f3a56;;
+}
+
+
+.container-dev {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #eee;
+  font-size: 11px;
+}
+
+.container-dev div.chart-wrapper {
+  order: -1;
+  height: 300px;
+}
+
+.container-dev > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+@media only screen and (min-width: 800px) {
+  .container-dev {
+    flex-wrap: wrap;
+  }
+  div.watch-list-wrapper {
+      flex-basis: 100%;
+      width: 25%;
+  }
+  div.chart-wrapper {
+      flex-basis: 50%;
+      width: 75%;
+      order: 0;
+  }
+  div.model-wrapper {
+      flex-basis: 50%;
+      width: 75%;
+      height: 30%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 799px) {
+  .container-dev {
+    height: 100% !important;
+  }
+}
+
